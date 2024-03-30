@@ -1,8 +1,23 @@
-# React + Vite
+# Weather Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a simple weather search application built with React and Vite. It allows users to search for weather information based on the city name. The application provides real-time weather data fetched from the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## Features
+* Search for weather information by city name.
+* Real-time weather data updates.
+* Error handling for non-existent cities or failed API requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+* React
+* Vite
+* Javascript
+* OpenWeatherMap API
+
+## Usage
+Enter the name of a city in the search bar and press Enter or click the Search button.
+The application will display the current weather information for the entered city.
+If the city does not exist or the API request fails, an error message will be displayed.
+
+## Test the Project
+Experience the application live here: https://weatherappreactabarrios.netlify.app/
