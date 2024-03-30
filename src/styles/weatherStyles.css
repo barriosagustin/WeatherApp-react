@@ -3,13 +3,22 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: rgb(83, 150, 226);
+    background-color: #8bc6ec
   }
   
   .container {
-    max-width: 600px;
+    max-width: calc(100% - 100px);
     margin: 0 auto;
     padding: 20px;
+  }
+
+  .input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-style{
+    width: 600px;
   }
   
   h1 {
@@ -41,6 +50,20 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+
+  .searched-city {
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 0px;
+    right: 290px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+  }
   
   h2 {
     font-size: 20px;
@@ -56,6 +79,18 @@ body {
     height: 150px;
     margin-top: 10px;
   }
+
+  .weather-cards-horizontal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+  }
+  
+  .weather-card {
+    margin-right: 10px; 
+  }
+  
   
   
   @media (max-width: 600px) {
